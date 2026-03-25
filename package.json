@@ -1,30 +1,32 @@
 {
-  "name": "my-timer-app",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+     "name": "my-timer-app"   "my-timer-app","name"   "name": "my-timer-app",
+     “version":“0.1.0""version": "0.1.0",
+     "private": true   真正的,"private"   "private": true,
+     "scripts": {"scripts"   "scripts": {
+       "dev": "next dev"   "next dev","dev"   "dev": "next dev",
+       "build": "next build","build": "next build",
+       "start": "next start","start": "next start",
+       "lint": "next lint""lint": "next lint"
   },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "next": "^16.2.0",
-    "tailwind-merge": "^3.3.1",
-    "vaul": "^1.1.2",
-    "zod": "^3.24.1"
+     "dependencies": {"dependencies": {
+       “react":“^ 19.2.0","react": "^19.2.0",
+       "react-dom": "^19.2.0","react-dom": "^19.2.0",
+       “next":“^ 16.2.0","next": "^16.2.0",
+    "tailwind-merge": "^3.3.1","tailwind-merge": "^3.3.1",
+       “vaul":“^ 1.1.2","vaul": "^1.1.2",
+       “zod":“^ 3.24.1""zod": "^3.24.1"
   },
-  "devDependencies": {
-    "@types/node": "^22.0.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
+     "devDependencies": {"devDependencies": {
+    "@types
+ode": "^22.0.0","@types/node": "^22.0.0",
+    "@types/react": "^19.2.14","@types/react": "^19.2.14",
+    “@types/react-dom”: “^19.2.3”"@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.4.19",
-    "postcss": "^8.5.3",
+       “postcss":“^ 8.5.3","postcss": "^8.5.3",
     "tailwindcss": "^4.2.0",
-    "tw-animate-css": "1.3.3",
+    "tw-animate-css": "1.3.3","tw-animate-css": "1.3.3",
     "typescript": "^5.7.3"
+       "lucide-react": "^0.476.0"
   },
   "output": "export"
 }
