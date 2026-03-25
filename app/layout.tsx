@@ -1,6 +1,5 @@
-import type { Metadata } from 'next'
+import type   类型 { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -22,14 +21,14 @@ export const metadata: Metadata = {
       },
       {
         url: '/icon.svg',
-        type: 'image/svg+xml',
+        type   类型: 'image/svg+xml',
       },
     ],
     apple: '/apple-icon.png',
   },
 }
 
-export default function RootLayout({
+export default   默认的 function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
